@@ -17,15 +17,16 @@ namespace MidtermsFinal
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnPatientTable_Click(object sender, EventArgs e)
         {
             frmPatient patient = new frmPatient();
             patient.ShowDialog();
+        }
+
+        private void btnDoctorTable_Click(object sender, EventArgs e)
+        {
+            frmDoctor doctor = new frmDoctor();
+            doctor.ShowDialog();
         }
     }
 }

@@ -51,6 +51,7 @@
             this.btnDoctorTable.TabIndex = 2;
             this.btnDoctorTable.Text = "Doctor Table";
             this.btnDoctorTable.UseVisualStyleBackColor = true;
+            this.btnDoctorTable.Click += new System.EventHandler(this.btnDoctorTable_Click);
             // 
             // btnRoomTable
             // 
@@ -71,7 +72,6 @@
             this.Controls.Add(this.btnPatientTable);
             this.Name = "frmMain";
             this.Text = "frmMain";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

@@ -31,3 +31,4 @@ C:\Users\Jan Romel\OneDrive\Desktop\MidtermsFinal\MidtermsFinal\bin\Debug\System
 C:\Users\Jan Romel\OneDrive\Desktop\MidtermsFinal\MidtermsFinal\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Jan Romel\OneDrive\Desktop\MidtermsFinal\MidtermsFinal\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Jan Romel\OneDrive\Desktop\MidtermsFinal\MidtermsFinal\obj\Debug\Midterms.BC055091.Up2Date
+C:\Users\Jan Romel\OneDrive\Desktop\MidtermsFinal\MidtermsFinal\obj\Debug\MidtermsFinal.frmDoctor.resources

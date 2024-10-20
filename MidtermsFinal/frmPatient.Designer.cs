@@ -43,17 +43,17 @@
             this.dtgPatient = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
+            this.lblPatientFirstName = new System.Windows.Forms.Label();
+            this.lblPatientLastName = new System.Windows.Forms.Label();
+            this.lblAge = new System.Windows.Forms.Label();
+            this.lblAddress = new System.Windows.Forms.Label();
+            this.lblSpecialization = new System.Windows.Forms.Label();
+            this.lblDoctorLastName = new System.Windows.Forms.Label();
+            this.lblDoctorFirstName = new System.Windows.Forms.Label();
+            this.lblLicenseNumber = new System.Windows.Forms.Label();
+            this.lblAvailabilityStatus = new System.Windows.Forms.Label();
+            this.lblRoomType = new System.Windows.Forms.Label();
+            this.lblRoomNumber = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
@@ -194,104 +194,104 @@
             this.label7.TabIndex = 14;
             this.label7.Text = "Patient\'s doctor info:";
             // 
-            // label9
+            // lblPatientFirstName
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(48, 595);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(90, 20);
-            this.label9.TabIndex = 16;
-            this.label9.Text = "First Name:";
+            this.lblPatientFirstName.AutoSize = true;
+            this.lblPatientFirstName.Location = new System.Drawing.Point(48, 595);
+            this.lblPatientFirstName.Name = "lblPatientFirstName";
+            this.lblPatientFirstName.Size = new System.Drawing.Size(90, 20);
+            this.lblPatientFirstName.TabIndex = 16;
+            this.lblPatientFirstName.Text = "First Name:";
             // 
-            // label10
+            // lblPatientLastName
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(48, 629);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(90, 20);
-            this.label10.TabIndex = 17;
-            this.label10.Text = "Last Name:";
+            this.lblPatientLastName.AutoSize = true;
+            this.lblPatientLastName.Location = new System.Drawing.Point(48, 629);
+            this.lblPatientLastName.Name = "lblPatientLastName";
+            this.lblPatientLastName.Size = new System.Drawing.Size(90, 20);
+            this.lblPatientLastName.TabIndex = 17;
+            this.lblPatientLastName.Text = "Last Name:";
             // 
-            // label11
+            // lblAge
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(48, 701);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(42, 20);
-            this.label11.TabIndex = 19;
-            this.label11.Text = "Age:";
+            this.lblAge.AutoSize = true;
+            this.lblAge.Location = new System.Drawing.Point(48, 701);
+            this.lblAge.Name = "lblAge";
+            this.lblAge.Size = new System.Drawing.Size(42, 20);
+            this.lblAge.TabIndex = 19;
+            this.lblAge.Text = "Age:";
             // 
-            // label12
+            // lblAddress
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(48, 667);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(72, 20);
-            this.label12.TabIndex = 18;
-            this.label12.Text = "Address:";
+            this.lblAddress.AutoSize = true;
+            this.lblAddress.Location = new System.Drawing.Point(48, 667);
+            this.lblAddress.Name = "lblAddress";
+            this.lblAddress.Size = new System.Drawing.Size(72, 20);
+            this.lblAddress.TabIndex = 18;
+            this.lblAddress.Text = "Address:";
             // 
-            // label8
+            // lblSpecialization
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(450, 590);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(111, 20);
-            this.label8.TabIndex = 23;
-            this.label8.Text = "Specialization:";
+            this.lblSpecialization.AutoSize = true;
+            this.lblSpecialization.Location = new System.Drawing.Point(450, 590);
+            this.lblSpecialization.Name = "lblSpecialization";
+            this.lblSpecialization.Size = new System.Drawing.Size(111, 20);
+            this.lblSpecialization.TabIndex = 23;
+            this.lblSpecialization.Text = "Specialization:";
             // 
-            // label13
+            // lblDoctorLastName
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(450, 556);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(90, 20);
-            this.label13.TabIndex = 22;
-            this.label13.Text = "Last Name:";
+            this.lblDoctorLastName.AutoSize = true;
+            this.lblDoctorLastName.Location = new System.Drawing.Point(450, 556);
+            this.lblDoctorLastName.Name = "lblDoctorLastName";
+            this.lblDoctorLastName.Size = new System.Drawing.Size(90, 20);
+            this.lblDoctorLastName.TabIndex = 22;
+            this.lblDoctorLastName.Text = "Last Name:";
             // 
-            // label14
+            // lblDoctorFirstName
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(450, 518);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(90, 20);
-            this.label14.TabIndex = 21;
-            this.label14.Text = "First Name:";
+            this.lblDoctorFirstName.AutoSize = true;
+            this.lblDoctorFirstName.Location = new System.Drawing.Point(450, 518);
+            this.lblDoctorFirstName.Name = "lblDoctorFirstName";
+            this.lblDoctorFirstName.Size = new System.Drawing.Size(90, 20);
+            this.lblDoctorFirstName.TabIndex = 21;
+            this.lblDoctorFirstName.Text = "First Name:";
             // 
-            // label15
+            // lblLicenseNumber
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(450, 484);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(128, 20);
-            this.label15.TabIndex = 20;
-            this.label15.Text = "License Number:";
+            this.lblLicenseNumber.AutoSize = true;
+            this.lblLicenseNumber.Location = new System.Drawing.Point(450, 484);
+            this.lblLicenseNumber.Name = "lblLicenseNumber";
+            this.lblLicenseNumber.Size = new System.Drawing.Size(128, 20);
+            this.lblLicenseNumber.TabIndex = 20;
+            this.lblLicenseNumber.Text = "License Number:";
             // 
-            // label17
+            // lblAvailabilityStatus
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(453, 753);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(133, 20);
-            this.label17.TabIndex = 27;
-            this.label17.Text = "Availability status:";
+            this.lblAvailabilityStatus.AutoSize = true;
+            this.lblAvailabilityStatus.Location = new System.Drawing.Point(453, 753);
+            this.lblAvailabilityStatus.Name = "lblAvailabilityStatus";
+            this.lblAvailabilityStatus.Size = new System.Drawing.Size(133, 20);
+            this.lblAvailabilityStatus.TabIndex = 27;
+            this.lblAvailabilityStatus.Text = "Availability status:";
             // 
-            // label18
+            // lblRoomType
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(453, 715);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(47, 20);
-            this.label18.TabIndex = 26;
-            this.label18.Text = "Type:";
+            this.lblRoomType.AutoSize = true;
+            this.lblRoomType.Location = new System.Drawing.Point(453, 715);
+            this.lblRoomType.Name = "lblRoomType";
+            this.lblRoomType.Size = new System.Drawing.Size(47, 20);
+            this.lblRoomType.TabIndex = 26;
+            this.lblRoomType.Text = "Type:";
             // 
-            // label19
+            // lblRoomNumber
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(453, 681);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(116, 20);
-            this.label19.TabIndex = 25;
-            this.label19.Text = "Room Number:";
+            this.lblRoomNumber.AutoSize = true;
+            this.lblRoomNumber.Location = new System.Drawing.Point(453, 681);
+            this.lblRoomNumber.Name = "lblRoomNumber";
+            this.lblRoomNumber.Size = new System.Drawing.Size(116, 20);
+            this.lblRoomNumber.TabIndex = 25;
+            this.lblRoomNumber.Text = "Room Number:";
             // 
             // label20
             // 
@@ -319,16 +319,10 @@
             this.label21.Size = new System.Drawing.Size(78, 20);
             this.label21.TabIndex = 29;
             this.label21.Text = "Room no.";
-            this.label21.Click += new System.EventHandler(this.label21_Click);
             // 
             // cboDoctorLicense
             // 
             this.cboDoctorLicense.FormattingEnabled = true;
-            this.cboDoctorLicense.Items.AddRange(new object[] {
-            "Insert",
-            "Search",
-            "Update",
-            "Delete"});
             this.cboDoctorLicense.Location = new System.Drawing.Point(43, 386);
             this.cboDoctorLicense.Name = "cboDoctorLicense";
             this.cboDoctorLicense.Size = new System.Drawing.Size(264, 28);
@@ -337,11 +331,6 @@
             // cboRoomNo
             // 
             this.cboRoomNo.FormattingEnabled = true;
-            this.cboRoomNo.Items.AddRange(new object[] {
-            "Insert",
-            "Search",
-            "Update",
-            "Delete"});
             this.cboRoomNo.Location = new System.Drawing.Point(43, 453);
             this.cboRoomNo.Name = "cboRoomNo";
             this.cboRoomNo.Size = new System.Drawing.Size(264, 28);
@@ -356,18 +345,18 @@
             this.Controls.Add(this.cboDoctorLicense);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label19);
+            this.Controls.Add(this.lblAvailabilityStatus);
+            this.Controls.Add(this.lblRoomType);
+            this.Controls.Add(this.lblRoomNumber);
             this.Controls.Add(this.label20);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
+            this.Controls.Add(this.lblSpecialization);
+            this.Controls.Add(this.lblDoctorLastName);
+            this.Controls.Add(this.lblDoctorFirstName);
+            this.Controls.Add(this.lblLicenseNumber);
+            this.Controls.Add(this.lblAge);
+            this.Controls.Add(this.lblAddress);
+            this.Controls.Add(this.lblPatientLastName);
+            this.Controls.Add(this.lblPatientFirstName);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.dtgPatient);
@@ -409,17 +398,17 @@
         private System.Windows.Forms.DataGridView dtgPatient;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label lblPatientFirstName;
+        private System.Windows.Forms.Label lblPatientLastName;
+        private System.Windows.Forms.Label lblAge;
+        private System.Windows.Forms.Label lblAddress;
+        private System.Windows.Forms.Label lblSpecialization;
+        private System.Windows.Forms.Label lblDoctorLastName;
+        private System.Windows.Forms.Label lblDoctorFirstName;
+        private System.Windows.Forms.Label lblLicenseNumber;
+        private System.Windows.Forms.Label lblAvailabilityStatus;
+        private System.Windows.Forms.Label lblRoomType;
+        private System.Windows.Forms.Label lblRoomNumber;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label21;
